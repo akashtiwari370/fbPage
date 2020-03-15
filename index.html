@@ -44,10 +44,25 @@
         .bg{
             font-size: 20px;
             color: rgb(7, 7, 90);
-            float: right;
+            float: left;
+            margin-left: 250px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+            }
+        .container{
+            float:right;
+            
+            float: left;
+            line-height: 5px;
+        }  
+        .heading1{
+            font-size: 40px;
+            
         }
+        .heading2{
+            font-size: 20px;
+            font-weight: 200;
+            font-family: 'Times New Roman', Times, serif;
+        }  
 
     </style>
 </head>
@@ -62,7 +77,45 @@
     </div>
    <div class="bg"> <p><b>Facebook helps you connect and share with the </b></p><p><b>people in your life.</b></p><img src="fbbg.png"></div>
 
-   
+   <div class="container">
+    <form>
+        <p class="heading1"><b>Create an account</b>
+            <p class="heading2">Its quick and easy.</p>
+        </p>
+        
+        <input type="text" size="20" placeholder="First name" height="50px">
+        <input type="text" placeholder="Surname" ><br><br><br><br><br>
+        <input type="number" placeholder="Mobile number or email address" >
+        <br><br><br><br><br>
+        <input type="password" placeholder="New password" ><br><br><br><br><br>
+        <label>Birthday<br><br><br>
+            <select name="date">
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17"> 17</option>
+                <option value="18">18</option>
+            </select>
+            <select name="month">
+                <option value="03">Mar</option>
+                <option value="04">April</option>
+                <option value="05">May</option>
+                <option value="06">June </option>
+                <option value="07">July</option>
+            </select>
+            <select name="date">
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998"> 1998</option>
+                <option value="1999">1999</option>
+            </select>
+        </label>
+ 
+ 
+ 
+    </form>
+   </div>
     
 </body>
 </html>
